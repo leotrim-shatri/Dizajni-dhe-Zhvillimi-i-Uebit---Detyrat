@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detyra 3</title>
+</head>
+<body>
+    <button onclick="
+    let numri = Number(prompt('Ju lutem shkruani nje numer:'));
+    if(!isNaN(numri)) {
+        if(numri % 2 === 0) {
+            alert('Numri ' + numri + ' eshte numer cift.');
+        } else {
+            alert('Numri ' + numri + ' eshte numer tek.');
+        }
+    } else {
+        alert('Ju lutem shkruani nje numer te vlefshem.');
+    }
+        ">Kontrollo nese numri eshte cift apo tek</button>
+</body>
+</html>
