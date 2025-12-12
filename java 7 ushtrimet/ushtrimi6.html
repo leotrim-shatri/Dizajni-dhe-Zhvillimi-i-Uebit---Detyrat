@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ushtrimi 6</title>
+</head>
+<body>
+    <p>Paragrafi 1</p>
+    <p>Paragrafi 2</p>
+    <p>Paragrafi 3</p>
+    <p>Paragrafi 4</p>
+
+    <div id="rezultati"></div>
+
+    <script>
+        let paragrafet = document.querySelectorAll('p');
+
+        let rezultat = paragrafet.length;
+
+        document.getElementById('rezultati').innerHTML = 'Numri i paragrafëve është: ' + rezultat;
+
+    </script>
+    
+</body>
+</html>
