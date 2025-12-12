@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ushtrimi 7</title>
+</head>
+<body>
+    <ul>
+        <li class="item">Elementi 1</li>
+        <li class="item">Elementi 2</li>
+        <li class="item">Elementi 3</li>
+        <li class="item">Elementi 4</li>
+    </ul>
+
+    <script>
+        const elementi = document.querySelectorAll(".item");
+        const ngjyra = ["red", "green", "blue", "orange"];
+
+        for (let i = 0; i < elementi.length; i++) {
+            elementi[i].style.color = ngjyra[i];
+        }
+    </script>
+</body>
+</html>
